@@ -6,7 +6,7 @@
   "sessions": [
     {
       "index": 0,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2023-11-27T00:00:00Z",
       "badges": [
@@ -19,7 +19,7 @@
     },
     {
       "index": 1,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2023-12-04T00:00:00Z",
       "badges": [
@@ -32,7 +32,7 @@
     },
     {
       "index": 2,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2023-12-11T00:00:00Z",
       "badges": [
@@ -45,7 +45,7 @@
     },
     {
       "index": 3,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2023-12-11T00:00:00Z",
       "badges": [
@@ -58,7 +58,7 @@
     },
     {
       "index": 4,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2023-12-18T00:00:00Z",
       "badges": [
@@ -71,7 +71,7 @@
     },
     {
       "index": 5,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2024-01-08T00:00:00Z",
       "badges": [
@@ -84,7 +84,7 @@
     },
     {
       "index": 6,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2024-01-15T00:00:00Z",
       "badges": [
@@ -97,7 +97,7 @@
     },
     {
       "index": 7,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2024-01-22T00:00:00Z",
       "badges": [
@@ -110,7 +110,7 @@
     },
     {
       "index": 8,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2024-01-29T00:00:00Z",
       "badges": [
@@ -123,7 +123,7 @@
     },
     {
       "index": 9,
-      "isSelected": false,
+      "isSelected": true,
       "isComplete": false,
       "date": "2024-02-05T00:00:00Z",
       "badges": [
