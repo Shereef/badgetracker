@@ -7,26 +7,26 @@
     {
       "index": 0,
       "isSelected": true,
-      "isComplete": false,
-      "date": "2023-11-27T00:00:00Z",
+      "isComplete": true,
+      "date": "2023-11-27T12:00:00Z",
       "badges": [
         {
           "badgeTitle": "Google Cloud Fundamentals: Core Infrastructure",
-          "link": "https://www.cloudskillsboost.google/course_templates/60",
-          "isComplete": false
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/60",
+          "isComplete": true
         }
       ]
     },
     {
       "index": 1,
       "isSelected": true,
-      "isComplete": false,
-      "date": "2023-12-04T00:00:00Z",
+      "isComplete": true,
+      "date": "2023-12-04T12:00:00Z",
       "badges": [
         {
-          "badgeTitle": "Getting Started with Application Development",
-          "link": "https://www.cloudskillsboost.google/course_templates/22",
-          "isComplete": false
+          "badgeTitle": "Google Cloud Fundamentals: Core Infrastructure",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/60",
+          "isComplete": true
         }
       ]
     },
@@ -34,11 +34,11 @@
       "index": 2,
       "isSelected": true,
       "isComplete": false,
-      "date": "2023-12-11T00:00:00Z",
+      "date": "2023-12-11T12:00:00Z",
       "badges": [
         {
-          "badgeTitle": "Securing and Integrating Components of your Application",
-          "link": "https://www.cloudskillsboost.google/course_templates/42",
+          "badgeTitle": "Getting Started with Application Development",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/22",
           "isComplete": false
         }
       ]
@@ -47,11 +47,11 @@
       "index": 3,
       "isSelected": true,
       "isComplete": false,
-      "date": "2023-12-11T00:00:00Z",
+      "date": "2023-12-18T00:00:00Z",
       "badges": [
         {
-          "badgeTitle": "App Deployment, Debugging, and Performance",
-          "link": "https://www.cloudskillsboost.google/course_templates/43",
+          "badgeTitle": "Getting Started with Application Development",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/22",
           "isComplete": false
         }
       ]
@@ -60,11 +60,11 @@
       "index": 4,
       "isSelected": true,
       "isComplete": false,
-      "date": "2023-12-18T00:00:00Z",
+      "date": "2024-01-08T00:00:00Z",
       "badges": [
         {
-          "badgeTitle": "Application Development with Cloud Run",
-          "link": "https://www.cloudskillsboost.google/course_templates/371",
+          "badgeTitle": "Securing and Integrating Components of your Application",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/42",
           "isComplete": false
         }
       ]
@@ -73,11 +73,11 @@
       "index": 5,
       "isSelected": true,
       "isComplete": false,
-      "date": "2024-01-08T00:00:00Z",
+      "date": "2024-01-15T00:00:00Z",
       "badges": [
         {
-          "badgeTitle": "Getting Started with Google Kubernetes Engine",
-          "link": "https://www.cloudskillsboost.google/course_templates/2",
+          "badgeTitle": "Securing and Integrating Components of your Application",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/42",
           "isComplete": false
         }
       ]
@@ -86,11 +86,11 @@
       "index": 6,
       "isSelected": true,
       "isComplete": false,
-      "date": "2024-01-15T00:00:00Z",
+      "date": "2024-01-22T00:00:00Z",
       "badges": [
         {
-          "badgeTitle": "Hybrid Cloud Modernizing Applications with Anthos",
-          "link": "https://www.cloudskillsboost.google/course_templates/434",
+          "badgeTitle": "App Deployment, Debugging, and Performance",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/43",
           "isComplete": false
         }
       ]
@@ -99,11 +99,16 @@
       "index": 7,
       "isSelected": true,
       "isComplete": false,
-      "date": "2024-01-22T00:00:00Z",
+      "date": "2024-02-05T00:00:00Z",
       "badges": [
         {
-          "badgeTitle": "Serverless Cloud Run Development",
-          "link": "https://www.cloudskillsboost.google/course_templates/741",
+          "badgeTitle": "Developing Containerized Applications on Google Cloud",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/530",
+          "isComplete": false
+        },
+        {
+          "badgeTitle": "Developing Applications with Cloud Run on Google Cloud: Fundamentals",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/559",
           "isComplete": false
         }
       ]
@@ -112,11 +117,11 @@
       "index": 8,
       "isSelected": true,
       "isComplete": false,
-      "date": "2024-01-29T00:00:00Z",
+      "date": "2024-02-12T00:00:00Z",
       "badges": [
         {
-          "badgeTitle": "Serverless Firebase Development",
-          "link": "https://www.cloudskillsboost.google/quests/153",
+          "badgeTitle": "Getting Started with Google Kubernetes Engine",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/2",
           "isComplete": false
         }
       ]
@@ -125,11 +130,60 @@
       "index": 9,
       "isSelected": true,
       "isComplete": false,
-      "date": "2024-02-05T00:00:00Z",
+      "date": "2024-02-19T00:00:00Z",
       "badges": [
         {
+          "badgeTitle": "Hybrid Cloud Modernizing Applications with Anthos",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/434",
+          "isComplete": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "isSelected": true,
+      "isComplete": false,
+      "date": "2024-02-26T00:00:00Z",
+      "badges": [
+        {
+          "badgeTitle": "Hybrid Cloud Modernizing Applications with Anthos",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/434",
+          "isComplete": false
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "isSelected": true,
+      "isComplete": false,
+      "date": "2024-03-05T00:00:00Z",
+      "badges": [
+        {
+          "badgeTitle": "Hybrid Cloud Modernizing Applications with Anthos",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/434",
+          "isComplete": false
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "isSelected": true,
+      "isComplete": false,
+      "date": "2024-03-12T00:00:00Z",
+      "badges": [
+        {
+          "badgeTitle": "Serverless Firebase Development",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/649",
+          "isComplete": false
+        },
+        {
           "badgeTitle": "Deploy to Kubernetes in Google Cloud",
-          "link": "https://www.cloudskillsboost.google/journeys/19/course_templates/663",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/663",
+          "isComplete": false
+        },
+        {
+          "badgeTitle": "Serverless Cloud Run Development",
+          "link": "https://www.cloudskillsboost.google/paths/19/course_templates/741",
           "isComplete": false
         }
       ]
