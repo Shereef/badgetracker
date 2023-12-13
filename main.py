@@ -1,3 +1,4 @@
+import datetime
 import functions_framework
 import requests
 import json
@@ -7,7 +8,10 @@ import os
 # add all profile urls from all your members here
 # future versions will pull this from Firestore
 
-
+cache = {
+    'data': [],
+    'ttl': datetime.datetime.now(),
+}
 
 @functions_framework.http
 def get_badges(request):
@@ -20,6 +24,12 @@ def get_badges(request):
         Response object using `make_response`
         <https://flask.palletsprojects.com/en/1.1.x/api/#flask.make_response>.
     """
+    if cache['data'] and cache['ttl'] > datetime.datetime.now():
+        return json.dumps(cache['data']), 200, {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type': 'application/json'
+    }
+
     profile_urls = get_profile_urls()
 
     payload = []
@@ -39,6 +49,11 @@ def get_badges(request):
             }
 
             payload.append(user_payload)
+
+    cache['data'] = payload
+    # Store a TTL for the data
+    date_in_one_hour = datetime.datetime.now() + datetime.timedelta(hours=1)
+    cache['ttl'] = date_in_one_hour
 
     return json.dumps(payload), 200, {
         'Access-Control-Allow-Origin': '*',
